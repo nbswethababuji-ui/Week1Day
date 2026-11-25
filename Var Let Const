@@ -1,0 +1,24 @@
+const browserVersion = "Chrome";
+function getBrowserVersion() {
+ 
+  if (browserVersion === "Chrome") {
+    var browserVersion = "Chrome 120";
+  }
+  console.log(browserVersion);
+}
+getBrowserVersion();
+output : undefined
+
+
+const browserVersion = "Chrome";
+
+function getBrowserVersion() {
+  if (browserVersion === "Chrome") {
+    let browserVersion = "Chrome 120";
+  }
+  console.log(browserVersion);
+}
+
+getBrowserVersion();
+
+output : Chrome
