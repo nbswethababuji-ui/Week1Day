@@ -1,0 +1,41 @@
+function launchbrowser(browsername)
+{
+    if (browsername === "Chrome")
+    {
+
+        console.log("Chrome")
+    }
+    else 
+    {
+        console.log("Otherwise")
+    }
+}
+function runTests(testType)
+{
+    switch(testType)
+    {
+    case  "smoke":
+    console.log("testType is smoke")
+    break;
+    case "sanity":
+    console.log("testType is sanity")
+    break;
+    case "Regression":
+    console.log("testType is Regression")
+    break;
+    default:
+    console.log("testType is smoke")
+}
+}
+runTests("default");
+runTests("Regression");
+launchbrowser("Chrome");
+launchbrowser("Firefox");
+
+
+
+PS E:\Playwright testleaf\tests> node '.\Conditional statements.js'
+testType is smoke
+testType is Regression
+Chrome
+Otherwise
