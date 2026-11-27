@@ -1,0 +1,23 @@
+function isnumbertype(n)
+{
+  if(n>0)
+  {
+    console.log("n is positive number")
+  }
+  else if(n<0)
+  {
+    console.log("n is negative number")
+  }
+  else if (n===0)
+  {
+    console.log("n is neutral")
+  }
+}
+isnumbertype(-7);
+isnumbertype(22);
+isnumbertype(0);
+
+PS E:\Playwright testleaf\tests> node .\Numbertype.js         
+n is negative number
+n is positive number
+n is neutral
