@@ -1,0 +1,14 @@
+function isOddorEven(a)
+{
+    if(a%2===0)
+    {
+        console.log("Even")
+    }
+    else{
+        console.log("Odd")
+    }
+}
+    isOddorEven(19);
+PS E:\Playwright testleaf\tests> node '.\odd or even.js'      
+Odd
+PS E:\Playwright testleaf\tests> 
